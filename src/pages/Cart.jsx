@@ -23,6 +23,8 @@ export const Cart = () => {
               id={product.id}
               price={data.price}
               flag={true}
+              rate={data.rating.rate}
+              count={data.rating.count}
               quantity={data.quantity}
               handleRemoveFromCart={handleRemoveFromCart}
             />
