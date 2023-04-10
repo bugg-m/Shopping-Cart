@@ -1,5 +1,5 @@
 import React from "react";
-import { Product } from "../utils/Product";
+import { Product } from "../common/Product";
 
 export const Home = () => {
   return (

@@ -3,6 +3,7 @@ import { Card } from "../common/Card";
 import { useDispatch, useSelector } from "react-redux";
 import { removeFromCart } from "../store/slices/cartSlice";
 export const Cart = () => {
+  let quantity;
   const dispatch = useDispatch();
   const product = useSelector((state) => state.cart);
   const handleRemoveFromCart = (product) => {
@@ -22,6 +23,7 @@ export const Cart = () => {
               id={product.id}
               price={data.price}
               flag={true}
+              quantity={data.quantity}
               handleRemoveFromCart={handleRemoveFromCart}
             />
           );
