@@ -25,7 +25,7 @@ export const Cart = () => {
               flag={true}
               rate={data.rating.rate}
               count={data.rating.count}
-              quantity={data.quantity}
+              // quantity={data.quantity}
               handleRemoveFromCart={handleRemoveFromCart}
             />
           );

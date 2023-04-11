@@ -287,4 +287,4 @@ const ApiData = [
   },
 ];
 
-export { ApiData };
+export default ApiData;

@@ -34,7 +34,7 @@ export const Card = (props) => {
                 Remove from Cart
               </button>
               <h1 className="mx-4 text-sm font-semibold tracking-tight text-gray-900 dark:text-white">
-                Quantity: {" " + props.quantity}
+                {/* Quantity: {" " + props.quantity} */}
               </h1>
             </div>
           ) : (
